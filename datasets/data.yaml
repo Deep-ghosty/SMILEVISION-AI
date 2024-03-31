@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Caries', 'Deep Caries', 'Impacted', 'Periapical Lesion']
+
+roboflow:
+  workspace: dentex
+  project: dentex-3xe7e
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dentex/dentex-3xe7e/dataset/4
